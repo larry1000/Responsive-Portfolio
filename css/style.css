@@ -1,0 +1,346 @@
+body {
+    
+    color: #777777;
+    font-family: Times;
+   
+}
+header {
+    background-color: #FFFFFF;
+    color: #4aaaa5;
+    font-family: Times;
+    margin-right: 200px;
+    margin-left: 200px;
+    
+    
+}
+.vl {
+    border-left: 1px solid lightgray;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    margin-left: -15px;
+    top: 0;
+}
+.vl2 {
+    border-left: 1px solid lightgray;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    margin-left: 100px;
+    top: 0;
+}
+section {
+    background: url('../images/qbkls.png');
+    position: relative;
+    height: 510px;
+    border-top: 2px solid #777777;
+    
+}
+.port {
+    background: url('../images/qbkls.png');
+    position: relative;
+    height: 620px;
+    border-top: 2px solid #777777;
+   
+    
+}
+.port2 {
+    background: url('../images/qbkls.png');
+    position: relative;
+    height: 520px;
+    border-top: 2px solid #777777;
+   
+    
+}
+header h1 {
+    position: relative;
+    top: 24px;
+    line-height: 100px;
+    width: 300px;
+    height: 100px;
+    color: #FFFFFF;
+    background-color: #777777;
+    text-align: center;
+}
+h2 {
+    margin-left: 20px;
+}
+.style {
+    border-top: 3px solid #b4b4b4;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.divider {
+    position: absolute;
+    top: 60px;
+    right: 30px;
+    width: 500px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+        
+}
+a:link, a:visited {
+    display: block;
+    width: 120px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #777777;
+    background-color: #FFFFFF;
+    float: right;
+    padding: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a:hover, a:active {
+    background-color: #7A991A;
+
+}
+#bio-image {
+    float: left;
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+}
+.gallery {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+.desc::after {
+        content: "";
+        clear: both;
+        display: table;
+      
+}
+.container {
+    position: relative;
+    top: 30px; 
+    margin: auto;
+    background-color: #FFFFFF;
+    width: 960px;
+    height: 350px;
+    display: block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #b4b4b4;
+    
+}
+.container2 {
+    position: relative;
+    top: 30px;
+    margin: auto;
+    background-color: #FFFFFF;
+    width: 600px;
+    height: 550px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #b4b4b4;
+    
+}
+.container3 {
+    position: relative;
+    top: 30px;
+    margin: auto;
+    background-color: #FFFFFF;
+    width: 600px;
+    height: 450px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #b4b4b4;
+    text-align: left;
+    padding-left: 20px;
+    
+}
+.sports {
+    position: absolute;
+    top: 95px;
+    margin-left: 15px;
+    width: 150px;
+    height: 125px;
+    z-index: 1;
+}
+.tech {
+    position: absolute;
+    top: 265px;
+    margin-left: 400px;
+    width: 150px;
+    height: 125px;
+    z-index: 3;
+}
+.space {
+    position: absolute;
+    top: 410px;
+    margin-left: 400px;
+    width: 150px;
+    height: 125px;
+    z-index: 5;
+}
+.book {
+    position: absolute;
+    top: 270px;
+    margin-left: 620px;
+    width: 150px;
+    height: 125px;
+    z-index: 9;
+}
+.music {
+    position: absolute;
+    top: 125px;
+    margin-left: 620px;
+    width: 150px;
+    height: 125px;
+    z-index: 7;
+}
+.desc {
+    position: absolute;
+    z-index: 2;
+    top: 175px;
+    vertical-align: middle;
+    line-height: 30px;
+    margin-left: 15px;
+    background-color: #666666;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    width: 150px;
+    height: 30px;
+}
+.desc2 {
+    position: absolute;
+    z-index: 4;
+    top: 350px;
+    vertical-align: middle;
+    line-height: 30px;
+    margin-left: 400px;
+    background-color: #666666;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    width: 150px;
+    height: 30px;
+}
+.desc3 {
+    position: absolute;
+    z-index: 6;
+    top: 500px;
+    vertical-align: middle;
+    line-height: 30px;
+    margin-left: 400px;
+    background-color: #666666;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    width: 150px;
+    height: 30px;
+}
+.desc4 {
+    position: absolute;
+    z-index: 8;
+    top: 207px;
+    vertical-align: middle;
+    line-height: 30px;
+    margin-left: 620px;
+    background-color: #666666;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    width: 150px;
+    height: 30px;
+}
+.desc5 {
+    position: absolute;
+    z-index: 10;
+    top: 350px;
+    vertical-align: middle;
+    line-height: 30px;
+    margin-left: 620px;
+    background-color: #666666;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    width: 150px;
+    height: 30px;
+}
+.inputs {
+    width: 500px;
+}
+textarea {
+    width: 500px;
+    height: 150px;
+  }
+  .button{
+    background-color: #666666;
+    font-size: 10px;
+    width: 80px;
+    height: 35px;
+    margin: 4px 2px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;  
+  }
+footer {
+    position: relative;
+    height: 45px;
+    bottom: 10px;
+    line-height: 50px;
+    font-size: 75%;
+    width: 100%;
+    padding-top: 40px;
+    text-align: center;
+    background-color: #666666;
+    color: #FFFFFF;
+    border-top: 6px solid #b4b4b4;
+}
+.footer2 {
+    position: relative;
+    height: 45px;
+    top: 0;
+    bottom: 0px;
+    line-height: 50px;
+    font-size: 75%;
+    width: 100%;
+    padding-top: 40px;
+    text-align: center;
+    background-color: #666666;
+    color: #FFFFFF;
+    border-top: 6px solid #b4b4b4;
+}
+@media screen and (max-width: 980px) {
+     {
+        font-size: 8px;
+    }
+}
+@media screen and (max-width: 768px) {
+   p { 
+       color: blue;
+}
+@media screen and (max-width: 640px) {
+    header {
+        display: static;
+        padding-top: 15%;
+    
+    }
+    h1 {
+      padding-left: 20%;
+    }
+   section .container  {
+        float: none;
+        width: 100%;
+        overflow: scroll;
+        
+    }
+    .port2 {
+        float: none;
+        width: 100%;
+        overflow: scroll;
+        
+    }
+    img {
+        float: left;
+    }
+}
